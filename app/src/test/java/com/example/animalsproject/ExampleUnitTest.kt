@@ -1,4 +1,4 @@
-package com.example.animalsproject
+package com.devtides.animals
 
 import org.junit.Test
 

@@ -57,7 +57,7 @@ class DetailFragment : Fragment() {
 
                 override fun onResourceReady(resource: Bitmap, transition: Transition<in Bitmap>?) {
                     Palette.from(resource)
-                        .generate() { palette ->
+                        .generate { palette ->
                             val intColor = palette?.lightMutedSwatch?.rgb ?: 0
                             dataBinding.palette = AnimalPalette(intColor)
                         }
